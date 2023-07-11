@@ -5,6 +5,7 @@ const app = express()
 app.use(express.json())
 
 app.get("/", (req, res) => {
+    console.log("exoo")
     res.send("Hello can sadsadsadsadsa 3")
 })
 
