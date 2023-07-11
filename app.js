@@ -6,7 +6,7 @@ app.use(express.json())
 
 app.get("/", (req, res) => {
     console.log("exoo")
-    res.send("Hello can sadsadsadsadsa 3")
+    res.send("Hello can 3")
 })
 
 app.listen(process.env.PORT || 5000, () => {
