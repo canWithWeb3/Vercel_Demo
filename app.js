@@ -1,10 +1,11 @@
 const express = require("express")
 
 const app = express()
+app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
     console.log("exoo")
-    res.send("Hello can asd 3")
+    res.send("Hello can ejs 3")
 })
 
 app.listen(process.env.PORT || 5000, () => {
